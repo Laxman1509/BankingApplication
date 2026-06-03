@@ -64,7 +64,9 @@ Banking System is a full-stack web application that provides a digital banking p
 | Bootstrap | UI styling and layout |
 | React Toastify | Notification alerts |
 
-## 📁 Project Structure
+## Project Structure
+
+```text
 Banking Application/
 ├── BankingSystem/                         # Spring Boot backend
 │   ├── src/
@@ -100,13 +102,14 @@ Banking Application/
         │   │   ├── admin/                 # Admin dashboard and management pages
         │   │   ├── auth/                  # Login and registration pages
         │   │   └── user/                  # Customer banking pages
-        │   ├── App.jsx                    # Application routes
+        │   ├──App.jsx                    # Application routes
         │   ├── main.jsx                   # React entry point
         │   └── index.css                  # Global styles
         ├── .env.example                   # Example frontend environment variables
         ├── package.json                   # Frontend dependencies and scripts
         ├── vite.config.js                 # Vite configuration
         └── index.html                     # HTML entry file
+```        
 
 ## ⚙️ Prerequisites
 Make sure the following are installed on your machine before running the project:
