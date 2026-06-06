@@ -45,7 +45,8 @@ public class SecurityConfig {
                     config.setAllowedOrigins(
                             List.of(
                                     "http://localhost:5173",
-                                    "http://localhost:5174"
+                                    "http://localhost:5174",
+                                   "https://banking-application-zeta.vercel.app"
                             ));
                     config.setAllowedMethods(
                             List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
