@@ -115,7 +115,7 @@ export default function Login() {
                                 type="email"
                                 name="email"
                                 className="form-control"
-                                placeholder={isAdmin ? 'admin@example.com' : 'student@example.com'}
+                                placeholder={isAdmin ? 'admin@example.com' : 'user@example.com'}
                                 value={formData.email}
                                 onChange={handleChange}
                                 required
